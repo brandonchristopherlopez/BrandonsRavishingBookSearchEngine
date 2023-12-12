@@ -12,8 +12,8 @@ const AppNavbar = () => {
 
   return (
     <>
-      <Navbar bg='dark' variant='dark' expand='lg'>
-        <Container fluid>
+      <Navbar className="dark-bg" bg='dark' variant='dark' expand='lg'>
+        <Container className="dark-bg" fluid>
           <Navbar.Brand as={Link} to='/'>
             Google Books Search
           </Navbar.Brand>
@@ -50,7 +50,7 @@ const AppNavbar = () => {
             <Modal.Title id='signup-modal'>
               <Nav variant='pills'>
                 <Nav.Item>
-                  <Nav.Link eventKey='login'>Login</Nav.Link>
+                  <Nav.Link className eventKey='login'>Login</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey='signup'>Sign Up</Nav.Link>

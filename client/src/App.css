@@ -15,3 +15,14 @@ h6 {
   font-weight: 300;
   font-style: italic;
 }
+
+.dark-bg, .bg-dark, .nav-link.active {
+  background-color:purple !important;
+}
+
+.nav-link {
+  color:purple;
+}
+.nav-link.active{
+  coloor:white;
+}
