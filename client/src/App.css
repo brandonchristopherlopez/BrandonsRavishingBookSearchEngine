@@ -16,13 +16,13 @@ h6 {
   font-style: italic;
 }
 
-.dark-bg, .bg-dark, .nav-link.active {
+.dark-bg, .bg-dark, .login.nav-link.active {
   background-color:purple !important;
 }
 
-.nav-link {
+.login.nav-link {
   color:purple;
 }
-.nav-link.active{
-  coloor:white;
+.login.nav-link.active{
+  color:white;
 }

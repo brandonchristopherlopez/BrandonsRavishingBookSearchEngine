@@ -101,7 +101,7 @@ const SearchBooks = () => {
                   onChange={(e) => setSearchInput(e.target.value)}
                   type="text"
                   size="lg"
-                  placeholder="Search for a book"
+                  placeholder="Search for a SPOOKY book"
                 />
               </Col>
               <Col xs={12} md={4}>
@@ -118,7 +118,7 @@ const SearchBooks = () => {
         <h2 className='pt-5'>
           {searchedBooks.length
             ? `Viewing ${searchedBooks.length} results:`
-            : 'Search for a book to begin'}
+            : 'Search for a SPOOKY book if you dare ⚆‿⊙) '}
         </h2>
         <Row>
           {searchedBooks.map((book) => {
